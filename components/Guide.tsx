@@ -5,19 +5,19 @@ const Guide = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
-        <Image src="/camp.svg" alt="camp" width={50} height={50} />
-        <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
-          We are here for you
+        <Image src="/yellowDart.svg" alt="camp" width={50} height={50} />
+        <p className="pt-5 uppercase regular-18 -mt-1 mb-3 text-yellow-50">
+          SİZİN İÇİN BURADAYIZ.
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Guide You to Easy Path</h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]">Only with the hilink application you will no longer get lost and get lost again, because we already support offline maps when there is no internet connection in the field. Invite your friends, relatives and friends to have fun in the wilderness through the valley and reach the top of the mountain</p>
+          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Rotanızı Çiziyoruz</h2>
+          <p className="regular-16 text-gray-30 xl:max-w-[520px]">Eşi benzeri olmayan Servis Cepte uygulaması ile artık çocuğunuzun servisi hakkındaki her şeyi tek bir elden yönetebilirisiniz. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor</p>
         </div>
       </div>
 
       <div className="flexCenter max-container relative w-full">
         <Image 
-          src="/boat.png"
+          src="/busGoing2.png"
           alt="boat"
           width={1440}
           height={580}
@@ -35,15 +35,15 @@ const Guide = () => {
           <div className="flexBetween flex-col">
             <div className='flex w-full flex-col'>
               <div className="flexBetween w-full">
-                <p className="regular-16 text-gray-20">Destination</p>
-                <p className="bold-16 text-green-50">48 min</p>
+                <p className="regular-16 text-gray-20">Varış Noktası </p>
+                <p className="pl-3 bold-16 text-green-50"> 48 dk</p>
               </div>
-              <p className="bold-20 mt-2">Aguas Calientes</p>
+              <p className="bold-20 mt-2">Beytepe</p>
             </div>
 
             <div className='flex w-full flex-col'>
-              <p className="regular-16 text-gray-20">Start track</p>
-              <h4 className="bold-20 mt-2 whitespace-nowrap">Wonorejo Pasuruan</h4>
+              <p className="regular-16 text-gray-20">Başlangıç Noktası</p>
+              <h4 className="bold-20 mt-2 whitespace-nowrap">Dikmen</h4>
             </div>
           </div>
         </div>

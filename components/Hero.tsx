@@ -8,15 +8,15 @@ const Hero = () => {
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image 
-          src="/camp.svg"
-          alt="camp"
+          src="/aaa.png"
+          alt="servis"
           width={50}
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
+        <h1 className="bold-52 lg:bold-88">Servis sonunda elinizin altında!</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app
+          Artık servisçiler ve servis şirketleriyle uğraşmak zorunda değilsiniz. Uygulamamız ile hem ödemelerinizi hem de servislerinizi takip edebilirsiniz!
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -33,21 +33,21 @@ const Hero = () => {
           </div>
 
           <p className="bold-16 lg:bold-20 text-blue-70">
-            198k
-            <span className="regular-16 lg:regular-20 ml-1">Excellent Reviews</span>
+            18 Bin
+            <span className="regular-16 lg:regular-20 ml-1"> Beş Yıldızlı Yorum</span>
           </p>
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button 
             type="button" 
-            title="Download App" 
+            title="Uygulamayı indirin" 
             variant="btn_green" 
           />
           <Button 
             type="button" 
-            title="How we work?" 
-            icon="/play.svg"
+            title="Nasıl Çalışır?" 
+            icon="/yellowBusSvg.svg"
             variant="btn_white_text" 
           />
         </div>
@@ -58,20 +58,20 @@ const Hero = () => {
 
            <div className="flex flex-col">
             <div className="flexBetween">
-              <p className="regular-16 text-gray-20">Location</p>
+              <p className="regular-16 text-gray-20">Konum</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Aguas Calientes</p>
+            <p className="bold-20 text-white">Tunalı Hilmi Caddesi</p>
           </div>
 
           <div className="flexBetween">
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Distance</p>
-              <p className="bold-20 text-white">173.28 mi</p>
+              <p className="regular-16 block text-gray-20">Mesafe</p>
+              <p className="bold-20 text-white">3.28 km</p>
             </div>
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Elevation</p>
-              <p className="bold-20 text-white">2.040 km</p>
+              <p className="regular-16 block text-gray-20">Varış Süresi</p>
+              <p className="bold-20 text-white">8 dk</p>
             </div>
           </div>
         </div>
